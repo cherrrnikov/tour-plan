@@ -10,7 +10,7 @@
   .navbar 
     &-top
       padding-top: 30px
-      padding-bottom: 30px
+      padding-bottom: 30px 
     &__search
       margin-left: auto
     &-menu
@@ -28,24 +28,32 @@
     max-width: 576px
     width: 92%
   .navbar
-    &__search, &-menu, &__user
+    &__search, &__user, &-menu
       display: none
-    .menu
-      &-button
-        display: flex
+  .menu
+    &-button
+      display: flex
+      width: 16px
+      height: 11px
+      padding: 0
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      background-color: #fff
+      cursor: pointer
+      outline: none
+      &__line
         width: 16px
-        height: 11px
-        padding: 0
-        align-items: center
-        justify-content: space-between
-        flex-direction: column
-        border: none
-        background-color: #fff
-        cursor: pointer
-        &__line
-          width: 16px
-          height: 1px
-          background-color: $text-color
+        height: 1px
+        background-color: $text-color
+  .hotel
+    &-info
+      &__rating
+        display: none
+      &__offer
+        order: -1
+        margin-left: 0
 
 @media ( max-width: 576px )
   .logo
@@ -55,8 +63,3 @@
   .logo 
     width: 99px
     height: 13px
-
-    
-          
-
-  
