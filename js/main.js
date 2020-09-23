@@ -75,15 +75,3 @@ ymaps.ready(function () {
 
   myMap.geoObjects.add(myPlacemark).add(myPlacemarkWithContent);
 });
-
-// Создаем экземпляр класса геометрии круга (указываем координаты и радиус в метрах).
-var circleGeometry = new ymaps.geometry.Circle([30, 50], 10),
-  // Создаем экземпляр класса геообъекта и передаем нашу геометрию в конструктор.
-  circleGeoObject = new ymaps.GeoObject({
-    geometry: circleGeometry,
-  });
-// Изменяем радиус геометрии через свойство geometry геообъекта.
-circleGeoObject.geometry.setRadius(5);
-// Или напрямую.
-circleGeometry.setRadius(5);
-// Также доступ к circleGeometry можно получить через circleGeoObject.geometry.

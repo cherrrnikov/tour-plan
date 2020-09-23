@@ -6,6 +6,7 @@
   .swiper
     &-slide
       &__img
+        width: 100%
         height: 100%
         object-fit: cover
 
@@ -87,10 +88,42 @@
       &__offer
         order: -1
         margin-left: 0
+  .swiper
+    &-container
+      height: 350px
+  .slider
+    height: 350px
+  .booking
+    width: 49%
+    &__heading
+      font-size: 17px
+    &__num
+      font-size: 17px
+  #map
+    width: 49%
+  
+
 
 @media ( max-width: 576px )
   .logo
     width: 99px
+  .hotel
+    &-right
+      min-height: 490px
+      flex-direction: column
+    &__slider
+      margin-bottom: 20px
+  .booking
+    width: 100%
+  .swiper
+    &-container
+      height: 250px
+  .slider
+    height: 250px
+  #map
+    width: 100%
+    height: 250px
+
 
 @media ( max-width: 320px )
   .logo 
@@ -101,11 +134,11 @@
       height: 179px
       position: relative
       &::after
-        height: 179px
+        height: 100%
     &-slide
-      height: 179px
+      height: 100%
       &__img
-        height: 179px
+        height: 100%
         width: 100%
         object-fit: cover
   .slider
@@ -122,13 +155,13 @@
         right: 10px
   .hotel
     &-right
+      min-height: 405px
       flex-wrap: wrap
   .stars
     margin-right: 11px
   .booking
     width: 100%
     height: 210px
-    margin-bottom: 20px
   #map
     width: 100%
     height: 173px
