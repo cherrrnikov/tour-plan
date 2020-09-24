@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <script src="https://api-maps.yandex.ru/2.1/?apikey=2f9695a0-52ba-4ee8-9d4e-c476de6b683b&lang=ru_RU"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="parallax.js"></script>
   </head>
   <body>
     <header class="navbar">
@@ -231,6 +233,23 @@
         <!-- /.hotel-grid -->
       </div>
       <!-- /.container -->
+    </section>
+    <section class="newsletter" data-speed="10" data-type="background">
+      <div class="newsletter-wrapper">
+        <h2 class="newsletter-title news-letter__title">
+          subscribe to our
+          <span class="newsletter-title__strong">Newsletter</span>
+        </h2>
+        <form action="#" class="subscribe newsletter__subscribe">
+          <input
+            type="text"
+            class="subscribe__input"
+            placeholder="Your email address"
+          />
+          <button class="subscribe__button">Send</button>
+        </form>
+      </div>
+      <!-- /.newsletter-wrapper -->
     </section>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
