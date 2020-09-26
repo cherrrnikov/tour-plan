@@ -1375,7 +1375,9 @@ template {
   .reviews-title {
     font-size: 18px;
     line-height: 23px;
-    margin-bottom: 45px;
+    margin: auto;
+    margin-bottom: 42px;
+    width: 245px;
   }
 }
 /*# sourceMappingURL=style.css.map */
