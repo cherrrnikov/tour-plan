@@ -11,7 +11,73 @@
   .card
     width: 225px
     height: 225px
+  .packages
+    &-wrapper
+      grid-template: 400px 400px / 300px 300px 300px
+      &__el-1
+        grid-column: span 2
 
+  .blue-haven
+    grid-template: 1fr / 315px 315px
+    &-card
+      max-height: 400px
+      padding: 35px 16px 20px 33px
+      &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+        margin-top: 0
+        margin-bottom: 17px
+      &__text
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 160.6%
+        margin-top: 0
+        margin-bottom: 20px
+      &__string
+        margin-bottom: 11px
+      &__icon 
+        margin-right: 15px
+      &__description
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 15px
+  .order 
+    &-price
+      &__newprice
+        font-size: 20px
+        line-height: 20px
+  .bell-mare, .white-palace, .luxury-place, .five-star 
+    grid-template: 1fr 1fr / 300px
+    &-card
+      height: 100%
+      padding: 15px 16px 20px 33px
+  .other 
+    &-title
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      margin-top: 0
+      margin-bottom: 12px
+    &-string
+      margin-bottom: 11px
+    &-icon 
+      margin-right: 15px
+    &-description
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+  .order 
+    &-price
+      &__newprice
+        font-size: 20px
+        line-height: 20px
+      
 
 @media ( max-width: 992px )
   .container, 
@@ -60,6 +126,27 @@
   .card
     width: 340px
     height: 255px
+  .packages
+    &-wrapper
+      grid-template: 400px 400px 400px / 335px 335px 
+      &__el-1
+        grid-column: span 2
+  .blue-haven
+    grid-template: 1fr / 350px 350px
+    &-card
+      padding: 35px 16px 33px 33px
+  .order 
+    &-price
+      &__newprice
+        font-size: 21px
+        line-height: 22px
+    &-button
+      padding: 9px 24px
+  .bell-mare, .white-palace, .luxury-place, .five-star 
+    grid-template: 1fr 1fr / 335px
+    &-card
+      height: 200px
+      padding: 15px 16px 18px 33px
 @media ( max-width: 768px )
   .container 
     max-width: 576px
@@ -146,7 +233,64 @@
   .card
     width: 48%
     height: 255px
-
+  .packages
+    &-wrapper
+      grid-template: 350px 350px 350px / 48% 48%
+      &__el-1
+        grid-column: span 2
+  .blue-haven
+    grid-template: 1fr / 1fr 1fr
+    &-card
+      padding: 20px 16px 15px 30px
+      &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 18px
+        margin-top: 0
+        margin-bottom: 17px
+      &__text
+        font-size: 10px
+        line-height: 162.6%
+      &__string
+        margin-bottom: 11px
+  .bell-mare, .white-palace, .luxury-place, .five-star 
+    grid-template: 1fr 1fr / 1fr
+    &-card
+      height: 175px
+      padding: 16px 16px 18px 33px
+  .other 
+    &-title
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 20px
+      margin-top: 0
+      margin-bottom: 10px
+    &-string
+      margin-bottom: 7px
+    &-icon 
+      margin-right: 10px
+    &-description
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+  .order 
+    position: relative
+    &-price
+      &__oldprice
+        font-size: 12px
+        margin-bottom: 0
+      &__newprice
+        font-size: 16px
+        line-height: 18px
+    &-button
+      position: absolute
+      right: 0
+      top: 1px
+      padding: 7px 20px
+      font-size: 12px
 @media ( max-width: 576px )
   .logo
     width: 99px
@@ -186,8 +330,63 @@
       line-height: 23px
   .card
     width: 100%
-    
-    
+  .packages
+    padding-top: 0
+    &__title
+      font-size: 24px
+      margin-bottom: 45px
+    &-stars
+      margin-bottom: 0
+    &-wrapper
+      grid-template: 386px 1fr 1fr 1fr 1fr / 1fr 
+      &__el-1, &__el-2, &__el-3, &__el-4, &__el-5
+        grid-column: span 2 
+  .bell-mare, .white-palace,.luxury-place,.five-star
+    grid-template: 175px 175px / 1fr 
+    max-height: 350px
+    &__img
+      height: 100%
+  .blue-haven
+    grid-template: 193px 193px / 1fr 
+    max-height: 386px
+    &__img
+      border-radius: 8px 8px 0 0
+      max-height: 193px
+    &-card
+      border-radius: 0 0 8px 8px
+      padding: 16px 16px 20px 33px
+      max-height: 193px
+      &__info
+        margin-bottom: 5px
+      &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+        margin-top: 0
+        margin-bottom: 5px
+      &__text
+        display: none
+      &__string
+        display: flex
+        align-items: center
+        margin-bottom: 7px
+      &__icon 
+        margin-right: 5px
+  .order 
+    &-price
+      &__oldprice
+        font-size: 15px
+        margin-bottom: 5px
+      &__newprice
+        font-size: 20px
+    &-button 
+      padding: 11px 20px
+      width: 50%
+      font-size: 17px
+      font-weight: normal
+  
+
     
   
 

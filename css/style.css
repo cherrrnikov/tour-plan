@@ -1143,6 +1143,347 @@ template {
   background-color: #EC1F46;
 }
 
+.packages {
+  padding: 40px 0 70px 0;
+}
+
+.packages__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+.packages-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 500px 500px;
+      grid-template-rows: 500px 500px;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
+  max-width: 1110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 30px;
+}
+
+.packages-wrapper__el-1 {
+  grid-column: span 2;
+}
+
+.packages-stars {
+  margin-bottom: 6px;
+}
+
+.blue-haven {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: 365px 365px;
+      grid-template: 1fr / 365px 365px;
+  max-width: 730px;
+}
+
+.blue-haven__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.blue-haven-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0A223D;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+  padding: 46px 21px 30px 43px;
+  color: #fff;
+}
+
+.blue-haven-card__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.blue-haven-card__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160.6%;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.blue-haven-card__string {
+  margin-bottom: 11px;
+}
+
+.blue-haven-card__icon {
+  margin-right: 15px;
+}
+
+.blue-haven-card__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.other-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.other-string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 11px;
+}
+
+.other-icon {
+  margin-right: 15px;
+}
+
+.other-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.order-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.order-price__oldprice {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  margin-bottom: 5px;
+}
+
+.order-price__newprice {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.order-button {
+  padding: 11px 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.offer__blue-haven {
+  position: absolute;
+  padding: 8px 12px;
+  top: 26px;
+  left: 0;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 0 4px 4px 0;
+}
+
+.offer__others {
+  position: absolute;
+  padding: 4px 9px;
+  top: 26px;
+  left: 0;
+  font-style: normal;
+  font-size: 8px;
+  line-height: 10px;
+  border-radius: 0 4px 4px 0;
+}
+
+.bell-mare {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 350px;
+      grid-template: 1fr 1fr / 350px;
+}
+
+.bell-mare__img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.bell-mare-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0A223D;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 30px 21px 25px 32px;
+  color: #fff;
+}
+
+.white-palace {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 350px;
+      grid-template: 1fr 1fr / 350px;
+}
+
+.white-palace__img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.white-palace-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0A223D;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 30px 21px 25px 32px;
+  color: #fff;
+}
+
+.luxury-place {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 350px;
+      grid-template: 1fr 1fr / 350px;
+}
+
+.luxury-place__img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.luxury-place-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0A223D;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 30px 21px 25px 32px;
+  color: #fff;
+}
+
+.five-star {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 350px;
+      grid-template: 1fr 1fr / 350px;
+}
+
+.five-star__img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.five-star-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0A223D;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 30px 21px 25px 32px;
+  color: #fff;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1159,6 +1500,88 @@ template {
   .card {
     width: 225px;
     height: 225px;
+  }
+  .packages-wrapper {
+    -ms-grid-rows: 400px 400px;
+    -ms-grid-columns: 300px 300px 300px;
+        grid-template: 400px 400px / 300px 300px 300px;
+  }
+  .packages-wrapper__el-1 {
+    grid-column: span 2;
+  }
+  .blue-haven {
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 315px 315px;
+        grid-template: 1fr / 315px 315px;
+  }
+  .blue-haven-card {
+    max-height: 400px;
+    padding: 35px 16px 20px 33px;
+  }
+  .blue-haven-card__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 17px;
+  }
+  .blue-haven-card__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160.6%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .blue-haven-card__string {
+    margin-bottom: 11px;
+  }
+  .blue-haven-card__icon {
+    margin-right: 15px;
+  }
+  .blue-haven-card__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .order-price__newprice {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .bell-mare, .white-palace, .luxury-place, .five-star {
+    -ms-grid-rows: 1fr 1fr;
+    -ms-grid-columns: 300px;
+        grid-template: 1fr 1fr / 300px;
+  }
+  .bell-mare-card, .white-palace-card, .luxury-place-card, .five-star-card {
+    height: 100%;
+    padding: 15px 16px 20px 33px;
+  }
+  .other-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .other-string {
+    margin-bottom: 11px;
+  }
+  .other-icon {
+    margin-right: 15px;
+  }
+  .other-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .order-price__newprice {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
@@ -1226,6 +1649,38 @@ template {
   .card {
     width: 340px;
     height: 255px;
+  }
+  .packages-wrapper {
+    -ms-grid-rows: 400px 400px 400px;
+    -ms-grid-columns: 335px 335px;
+        grid-template: 400px 400px 400px / 335px 335px;
+  }
+  .packages-wrapper__el-1 {
+    grid-column: span 2;
+  }
+  .blue-haven {
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 350px 350px;
+        grid-template: 1fr / 350px 350px;
+  }
+  .blue-haven-card {
+    padding: 35px 16px 33px 33px;
+  }
+  .order-price__newprice {
+    font-size: 21px;
+    line-height: 22px;
+  }
+  .order-button {
+    padding: 9px 24px;
+  }
+  .bell-mare, .white-palace, .luxury-place, .five-star {
+    -ms-grid-rows: 1fr 1fr;
+    -ms-grid-columns: 335px;
+        grid-template: 1fr 1fr / 335px;
+  }
+  .bell-mare-card, .white-palace-card, .luxury-place-card, .five-star-card {
+    height: 200px;
+    padding: 15px 16px 18px 33px;
   }
 }
 
@@ -1354,6 +1809,84 @@ template {
     width: 48%;
     height: 255px;
   }
+  .packages-wrapper {
+    -ms-grid-rows: 350px 350px 350px;
+    -ms-grid-columns: 48% 48%;
+        grid-template: 350px 350px 350px / 48% 48%;
+  }
+  .packages-wrapper__el-1 {
+    grid-column: span 2;
+  }
+  .blue-haven {
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template: 1fr / 1fr 1fr;
+  }
+  .blue-haven-card {
+    padding: 20px 16px 15px 30px;
+  }
+  .blue-haven-card__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 0;
+    margin-bottom: 17px;
+  }
+  .blue-haven-card__text {
+    font-size: 10px;
+    line-height: 162.6%;
+  }
+  .blue-haven-card__string {
+    margin-bottom: 11px;
+  }
+  .bell-mare, .white-palace, .luxury-place, .five-star {
+    -ms-grid-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template: 1fr 1fr / 1fr;
+  }
+  .bell-mare-card, .white-palace-card, .luxury-place-card, .five-star-card {
+    height: 175px;
+    padding: 16px 16px 18px 33px;
+  }
+  .other-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .other-string {
+    margin-bottom: 7px;
+  }
+  .other-icon {
+    margin-right: 10px;
+  }
+  .other-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .order {
+    position: relative;
+  }
+  .order-price__oldprice {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .order-price__newprice {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .order-button {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    padding: 7px 20px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1405,6 +1938,87 @@ template {
   }
   .card {
     width: 100%;
+  }
+  .packages {
+    padding-top: 0;
+  }
+  .packages__title {
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+  .packages-stars {
+    margin-bottom: 0;
+  }
+  .packages-wrapper {
+    -ms-grid-rows: 386px 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template: 386px 1fr 1fr 1fr 1fr / 1fr;
+  }
+  .packages-wrapper__el-1, .packages-wrapper__el-2, .packages-wrapper__el-3, .packages-wrapper__el-4, .packages-wrapper__el-5 {
+    grid-column: span 2;
+  }
+  .bell-mare, .white-palace, .luxury-place, .five-star {
+    -ms-grid-rows: 175px 175px;
+    -ms-grid-columns: 1fr;
+        grid-template: 175px 175px / 1fr;
+    max-height: 350px;
+  }
+  .bell-mare__img, .white-palace__img, .luxury-place__img, .five-star__img {
+    height: 100%;
+  }
+  .blue-haven {
+    -ms-grid-rows: 193px 193px;
+    -ms-grid-columns: 1fr;
+        grid-template: 193px 193px / 1fr;
+    max-height: 386px;
+  }
+  .blue-haven__img {
+    border-radius: 8px 8px 0 0;
+    max-height: 193px;
+  }
+  .blue-haven-card {
+    border-radius: 0 0 8px 8px;
+    padding: 16px 16px 20px 33px;
+    max-height: 193px;
+  }
+  .blue-haven-card__info {
+    margin-bottom: 5px;
+  }
+  .blue-haven-card__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .blue-haven-card__text {
+    display: none;
+  }
+  .blue-haven-card__string {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 7px;
+  }
+  .blue-haven-card__icon {
+    margin-right: 5px;
+  }
+  .order-price__oldprice {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .order-price__newprice {
+    font-size: 20px;
+  }
+  .order-button {
+    padding: 11px 20px;
+    width: 50%;
+    font-size: 17px;
+    font-weight: normal;
   }
 }
 
