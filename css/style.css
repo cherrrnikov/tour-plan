@@ -2114,5 +2114,11 @@ template {
     margin-bottom: 42px;
     width: 245px;
   }
+  .order-button {
+    padding: 8px 15px;
+    width: 50%;
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
 /*# sourceMappingURL=style.css.map */
