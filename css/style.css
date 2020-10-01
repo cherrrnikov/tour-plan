@@ -2555,7 +2555,7 @@ template {
   }
   .footer-breadcrumb {
     position: absolute;
-    top: 97%;
+    top: 96%;
     max-width: 90%;
   }
 }
