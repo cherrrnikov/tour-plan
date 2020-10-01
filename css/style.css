@@ -1559,6 +1559,11 @@ template {
   grid-row: 1 / 4;
 }
 
+.footer__legal {
+  max-width: 195px;
+  margin-left: 70px;
+}
+
 .footer__social-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1968,6 +1973,7 @@ template {
     grid-column: span 2;
   }
   .footer__legal {
+    margin-left: 0;
     grid-column: span 2;
   }
   .footer__additional {
