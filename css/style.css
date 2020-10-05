@@ -1729,6 +1729,8 @@ template {
       flex-basis: 100%;
   margin-bottom: 22px;
   min-height: 123px;
+  resize: none;
+  border-radius: 4px;
 }
 
 .footer__info {
