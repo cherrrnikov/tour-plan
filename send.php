@@ -87,7 +87,7 @@ try {
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
     $mail->Username   = 'chernikoviam@gmail.com'; // Логин на почте
-    $mail->Password   = 'itmedusa_628'; // Пароль на почте
+    $mail->Password   = 'ksdjhfgkljdfnb'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $mail->setFrom('chernikoviam@gmail.com', 'Igor Chernikov'); // Адрес самой почты и имя отправителя
