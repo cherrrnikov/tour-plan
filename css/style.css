@@ -1731,6 +1731,7 @@ template {
   min-height: 123px;
   resize: none;
   border-radius: 4px;
+  padding: 18px 23px;
 }
 
 .footer__info {
