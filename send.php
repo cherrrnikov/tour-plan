@@ -13,10 +13,17 @@ $email = $_POST['email'];
 // Формирование самого письма
 $title = "Новое обращение Best Tour Plan";
 
-if ($email) {
+if ($phone && $email) {
     $body = "
       <h2>Новое сообщение</h2>
-      <b>Почта:</b><br>$email
+      <b>Телефон:</b> $phone<br>
+      <b>Почта:</b><br>$email<br>
+      <b>Сообщение:</b><br>$message
+    ";
+} elseif($email) {
+    $body = "
+      <h2>Новое сообщение от </h2>$name<br>
+      <b>Почта:</b><br>$email  
     ";
 } else {
     $body = "
