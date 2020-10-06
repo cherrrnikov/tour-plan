@@ -15,7 +15,7 @@ $title = "Новое обращение Best Tour Plan";
 
 if ($phone && $email) {
     $body = "
-      <h2>Новое сообщение</h2>
+      <h2>Новое сообщение от </h2>$name<br>
       <b>Телефон:</b> $phone<br>
       <b>Почта:</b><br>$email<br>
       <b>Сообщение:</b><br>$message
