@@ -2471,7 +2471,7 @@ template {
         flex-basis: 100%;
   }
   .modal__dialog--visible {
-    max-width: 350px;
+    width: 700px;
     padding: 33px 40px;
   }
   .modal__button {
@@ -2677,6 +2677,9 @@ template {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     margin-bottom: 10px;
+  }
+  .modal__dialog--visible {
+    max-width: 300px;
   }
   .modal__message {
     min-height: 50px;
