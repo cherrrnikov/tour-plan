@@ -1,6 +1,6 @@
-.navbar 
+.navbar
   background-color: #fff
-  &-top 
+  &-top
     display: flex
     align-items: center
     justify-content: space-between
@@ -24,18 +24,20 @@
     justify-content: space-between
     align-items: center
     text-transform: uppercase
-    &__link 
-      color: $light  
+    &__link
+      color: $light
       text-decoration: none
       font-size: 14px
       line-height: 18px
+      &:hover
+        color: $primary
     &__item
       &--mobile
         &_visible
           display: none
-.logo 
+.logo
   width: 177px
-.search 
+.search
   display: flex
   position: relative
   overflow: hidden
@@ -52,7 +54,7 @@
     color: $text-color
     padding-left: 23px
     padding-right: 75px
-  &__button 
+  &__button
     position: absolute
     height: 100%
     width: 65px
@@ -62,6 +64,8 @@
     outline: none
     cursor: pointer
     background-color: $primary
+    &:hover
+      background-color: $button-hover
 .user
   display: flex
   align-items: center
@@ -71,9 +75,10 @@
     height: 40px
     border-radius: 50%
     object-fit: cover
-  &__name 
+  &__name
     font-size: 14px
     line-height: 18px
     color: $text-color
     margin-left: 18px
-
+    &:hover
+      text-decoration: underline

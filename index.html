@@ -152,7 +152,7 @@
           <!-- /.hotel-info__text -->
           <div
             data-toggle="modal"
-            data-href="#rating__modal"
+            data-href="#rating-modal"
             class="rating hotel-info__rating"
           >
             <span class="rating__text">User Rattings</span>
@@ -258,7 +258,7 @@
               <!-- /.booking__call-center -->
               <button
                 data-toggle="modal"
-                data-href="#booking__modal"
+                data-href="#booking-modal"
                 class="button booking__button"
               >
                 View Other Options
@@ -336,7 +336,13 @@
                   <span class="order-price__newprice">$ 8,500</span>
                 </div>
                 <!-- /.price -->
-                <button class="order-button">Book Now</button>
+                <button
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                  class="order-button"
+                >
+                  Book Now
+                </button>
               </div>
               <!-- /.order -->
               <span class="offer offer__blue-haven">Flash Offer</span>
@@ -392,7 +398,13 @@
                     <span class="order-price__newprice">$ 3,000</span>
                   </div>
                   <!-- /.price -->
-                  <button class="order-button">Book Now</button>
+                  <button
+                    data-toggle="modal"
+                    data-href="#booking-modal"
+                    class="order-button"
+                  >
+                    Book Now
+                  </button>
                 </div>
                 <!-- /.order -->
               </div>
@@ -450,7 +462,13 @@
                     <span class="order-price__newprice">$ 9,500</span>
                   </div>
                   <!-- /.price -->
-                  <button class="order-button">Book Now</button>
+                  <button
+                    data-toggle="modal"
+                    data-href="#booking-modal"
+                    class="order-button"
+                  >
+                    Book Now
+                  </button>
                 </div>
                 <!-- /.order -->
               </div>
@@ -507,7 +525,13 @@
                     <span class="order-price__newprice">$ 2,500</span>
                   </div>
                   <!-- /.price -->
-                  <button class="order-button">Book Now</button>
+                  <button
+                    data-toggle="modal"
+                    data-href="#booking-modal"
+                    class="order-button"
+                  >
+                    Book Now
+                  </button>
                 </div>
                 <!-- /.order -->
               </div>
@@ -565,7 +589,13 @@
                     <span class="order-price__newprice">$ 3,500</span>
                   </div>
                   <!-- /.price -->
-                  <button class="order-button">Book Now</button>
+                  <button
+                    data-toggle="modal"
+                    data-href="#booking-modal"
+                    class="order-button"
+                  >
+                    Book Now
+                  </button>
                 </div>
                 <!-- /.order -->
               </div>
@@ -793,7 +823,13 @@
               The curious corner <br />
               of chamarel
             </h3>
-            <button class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#booking-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
           <div class="card activities__card">
@@ -806,7 +842,13 @@
               Gymkhana club golf <br />
               course
             </h3>
-            <button class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#booking-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
           <div class="card activities__card">
@@ -819,7 +861,13 @@
               Tamarind falls hiking <br />
               trip - full day
             </h3>
-            <button class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#booking-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
           <div class="card activities__card">
@@ -832,7 +880,13 @@
               The blue marine discovery <br />
               quest
             </h3>
-            <button class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#booking-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
         </div>
@@ -965,10 +1019,29 @@
                   />
                 </div>
                 <!-- /.footer__icon-wrapper -->
-                Tel (business hours) : 269 1500 <br />
-                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00
-                pm)<br />
-                Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                <div class="footer__work-numbers">
+                  <span class="work-numbers"
+                    >Tel (business hours) :
+                    <a href="tel:269 1500" class="footer__number"
+                      >269 1500</a
+                    ></span
+                  >
+                  <br />
+                  <span class="work-numbers"
+                    >Tel (hotline) Monday - Saturday:
+                    <a href="tel:52-56-61-38" class="footer__number"
+                      >52-56-61-38</a
+                    >
+                    (08:00 am – 20:00 pm)</span
+                  ><br />
+                  <span class="work-numbers"
+                    >Tel (hotline) Sunday:
+                    <a href="tel:52-56-61-38" class="footer__number"
+                      >52-56-61-38</a
+                    >
+                    (08:00 am – 14:00 pm)</span
+                  >
+                </div>
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
@@ -979,7 +1052,9 @@
                   />
                 </div>
                 <!-- /.footer__icon-wrapper -->
-                cherly.lawson@example.com
+                <a href="mailto:cherly.lawson@example.com" class="footer__email"
+                  >cherly.lawson@example.com</a
+                >
               </li>
             </ul>
           </div>
@@ -1050,38 +1125,6 @@
             placeholder="Phone Number*"
             name="phone"
           />
-          <textarea
-            class="message modal__message"
-            placeholder="Message"
-            name="message"
-          ></textarea>
-          <button class="button modal__button" type="submit">Send</button>
-          <span class="modal__info">* Required Fields</span>
-        </form>
-      </div>
-      <!--/.modal__dialog -->
-    </div>
-    <!-- /.modal -->
-    <div class="modal" id="rating-modal">
-      <div class="modal__overlay"></div>
-      <div class="modal__dialog">
-        <a href="#" class="modal__close">
-          <img src="img/close.svg" alt="Icon: Close" />
-        </a>
-        <h3 class="modal__title modal__title--mb-3">Send us a feedback</h3>
-        <form action="send.php" method="POST" class="modal__form">
-          <input
-            type="text"
-            class="input modal__input"
-            placeholder="Your Full Name*"
-            name="name"
-          />
-          <input
-            type="text"
-            class="input modal__input"
-            placeholder="Phone Number*"
-            name="phone"
-          />
           <input
             type="text"
             class="input modal__input"
@@ -1100,5 +1143,10 @@
       <!--/.modal__dialog -->
     </div>
     <!-- /.modal -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

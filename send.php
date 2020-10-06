@@ -12,6 +12,7 @@ $email = $_POST['email'];
 
 // Формирование самого письма
 $title = "Новое обращение Best Tour Plan";
+
 if ($email) {
     $body = "
       <h2>Новое сообщение</h2>
@@ -24,6 +25,9 @@ if ($email) {
       <b>Сообщение:</b><br>$message
     ";
 }
+
+
+
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();

@@ -197,7 +197,11 @@
         left: 0
       &__img
         position: relative
-
+  .modal
+    &__dialog
+      &--visible
+        max-width: 400px
+        padding: 33px 55px
 @media ( max-width: 768px )
   .container
     max-width: 576px
@@ -396,6 +400,18 @@
   .footer
     &__input
       flex-basis: 100%
+  .modal
+    &__dialog
+      &--visible
+        max-width: 350px
+        padding: 33px 40px
+    &__button
+      flex-basis: 100%
+      margin-bottom: 15px
+    &__input
+      padding: 0 15px
+    &__message
+      padding: 15px
 @media ( max-width: 576px )
   .logo
     width: 99px
@@ -525,7 +541,9 @@
       &__links
         flex-basis: 100%
         margin-bottom: 10px
-
+  .modal
+    &__message
+      min-height: 50px
 @media ( max-width: 320px )
   .logo
     width: 99px
