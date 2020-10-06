@@ -2884,6 +2884,7 @@ template {
     max-height: 320px;
   }
   .modal__dialog--visible {
+    width: 700px;
     max-height: 65%;
   }
   .modal__input {
