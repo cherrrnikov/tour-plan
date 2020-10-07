@@ -1076,10 +1076,11 @@
               <div class="footer__input-group">
                 <input
                   type="tel"
-                  class="input footer__input"
+                  class="input footer__input phone"
                   placeholder="Phone Number*"
                   name="phone"
-                  required
+                  required=""
+                  minlength="18"
                 />
               </div>
               <textarea
@@ -1134,10 +1135,11 @@
           <div class="modal__input-group">
             <input
               type="tel"
-              class="input modal__input"
+              class="input modal__input phone"
               placeholder="Phone Number*"
               name="phone"
               required=""
+              minlength="18"
             />
           </div>
           <div class="modal__input-group">
@@ -1164,6 +1166,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
     <script src="js/map.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/main.js"></script>

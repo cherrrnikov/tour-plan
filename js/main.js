@@ -59,9 +59,18 @@ $(document).ready(function () {
   $(".form").each(function () {
     $(this).validate({
       errorClass: "invalid",
+      rules: {
+        phone: {
+          required: true,
+        },
+        email: {
+          required: true,
+          email: true,
+        },
+      },
       messages: {
         name: {
-          required: "Please srecify your name",
+          required: "Please specify your name",
           minlength: "The name must be at least two characters long",
         },
         email: {
@@ -70,8 +79,10 @@ $(document).ready(function () {
         },
         phone: {
           required: "Phone number required",
+          minlength: "Follow the format of +7 (xxx)-xxx-xx-xx",
         },
       },
     });
   });
+  $(".phone").mask("+7 (000)-000-00-00");
 });

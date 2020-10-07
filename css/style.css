@@ -1895,7 +1895,7 @@ template {
 
 .modal__message {
   width: 100%;
-  min-height: 123px;
+  height: 123px;
   margin-top: 15px;
 }
 
@@ -2877,14 +2877,13 @@ template {
     padding-bottom: 25px;
   }
   .modal__message {
-    min-height: 50px;
+    height: 50px;
   }
   .modal__input-group {
     width: 48%;
   }
   .modal__message {
     width: 48%;
-    max-height: 50px;
   }
   .modal__button {
     width: 48%;
@@ -2905,7 +2904,6 @@ template {
   .modal__message {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
-    max-height: 50px;
     padding: 15px 23px;
   }
   .modal__button {
@@ -2933,18 +2931,20 @@ template {
     max-height: 320px;
   }
   .modal__dialog--visible {
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 700px;
     max-height: 80%;
   }
   .modal__input {
+    height: 45px;
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
   }
   .modal__message {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
-    max-height: 50px;
-    padding: 15px 23px;
+    height: 45px;
   }
   .modal__button {
     -ms-flex-preferred-size: 100%;
@@ -2968,7 +2968,7 @@ template {
   .modal__message {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
-    max-height: 30px;
+    max-height: 45px;
     padding: 15px 23px;
   }
   .modal__button {
@@ -2976,7 +2976,7 @@ template {
     padding: 0;
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
   }
   .modal__info {
