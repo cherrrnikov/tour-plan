@@ -2702,7 +2702,8 @@ template {
     max-width: 300px;
   }
   .modal__message {
-    min-height: 50px;
+    min-height: 45px;
+    padding: 12px;
   }
 }
 
@@ -2940,11 +2941,13 @@ template {
     height: 45px;
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
+    padding: 15px;
   }
   .modal__message {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
     height: 45px;
+    padding: 15px;
   }
   .modal__button {
     -ms-flex-preferred-size: 100%;
@@ -2969,7 +2972,7 @@ template {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
     max-height: 45px;
-    padding: 15px 23px;
+    padding: 15px;
   }
   .modal__button {
     height: 40px;
