@@ -615,20 +615,24 @@
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form
-          action="send.php"
-          method="POST"
-          class="subscribe newsletter__subscribe"
-        >
-          <input
-            type="email"
-            class="input subscribe__input"
-            placeholder="Your email address"
-            name="email"
-            required
-          />
-          <button class="subscribe__button" type="submit">Send</button>
-        </form>
+        <div class="subscribe-container">
+          <form
+            action="send.php"
+            method="POST"
+            class="subscribe newsletter__subscribe form"
+          >
+            <div class="subscribe__input-group">
+              <input
+                type="email"
+                class="input subscribe__input"
+                placeholder="Your email address"
+                name="email"
+                required
+              />
+            </div>
+            <button class="subscribe__button" type="submit">Send</button>
+          </form>
+        </div>
       </div>
       <!-- /.newsletter-wrapper -->
     </section>

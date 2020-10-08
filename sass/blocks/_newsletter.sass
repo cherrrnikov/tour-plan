@@ -17,6 +17,7 @@
     height: 100%
     background-color: rgba($dark, 0.8)
   &-wrapper
+    position: absolute
     position: relative
     display: flex
     align-items: center
@@ -40,13 +41,15 @@
   .subscribe
     position: relative
     width: 350px
-    height: 55px
+    height: 80px
     border-radius: 4px
     overflow: hidden
+    &-container
+      height: 80px
     &__input
       position: absolute
       width: 100%
-      height: 100%
+      height: 55px
       border: none
       padding-left: 33px
       padding-right: 75px
@@ -58,11 +61,12 @@
       position: absolute
       top: 0
       right: 0
-      height: 100%
+      height: 55px
       min-width: 65px
       border: none
       outline: none
       background-color: $primary
+      border-radius: 0 4px 4px 0
       color: $light
       cursor: pointer
       font-style: normal
@@ -71,3 +75,8 @@
       line-height: 15px
       &:hover
         background-color: $button-hover
+#email-error
+  position: absolute
+  top: 60px
+  left: 10px
+  width: 75%
