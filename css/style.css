@@ -952,7 +952,6 @@ template {
 }
 
 .newsletter .subscribe__input {
-  position: absolute;
   width: 100%;
   height: 55px;
   border: none;
@@ -984,13 +983,6 @@ template {
 
 .newsletter .subscribe__button:hover {
   background-color: #cc1f1f;
-}
-
-#email-error {
-  position: absolute;
-  top: 60px;
-  left: 10px;
-  width: 75%;
 }
 
 .reviews {
