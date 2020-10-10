@@ -961,6 +961,7 @@ template {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
+  border-radius: 6px;
 }
 
 .newsletter .subscribe__button {

@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://api-maps.yandex.ru/2.1/?apikey=2f9695a0-52ba-4ee8-9d4e-c476de6b683b&lang=ru_RU"></script>
   </head>
@@ -21,6 +22,7 @@
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
               class="logo__image"
+
             />
           </a>
           <form
@@ -276,9 +278,9 @@
     </section>
     <section class="packages">
       <div class="container">
-        <h2 class="packages__title">Other Packages</h2>
+        <h2 class="packages__title" data-aos="fade-up" data-aos-delay="100">Other Packages</h2>
         <div class="packages-wrapper">
-          <div class="package blue-haven packages-wrapper__el-1">
+          <div class="package blue-haven packages-wrapper__el-1"  data-aos="fade-up" data-aos-delay="200">
             <img
               src="img/blue-haven.jpg"
               alt="Hotel Blue Haven"
@@ -350,7 +352,7 @@
             <!-- /.blue-haven-card -->
           </div>
           <!-- /.blue-haven -->
-          <div class="package bell-mare packages-wrapper__el-2">
+          <div class="package bell-mare packages-wrapper__el-2" data-aos="fade-up" data-aos-delay="300">
             <img
               src="img/bell-mare.jpg"
               alt="Bell Mare"
@@ -414,7 +416,7 @@
             <!-- /.bell-mare-card -->
           </div>
           <!-- /.bell-mare -->
-          <div class="package white-palace packages-wrapper__el-3">
+          <div class="package white-palace packages-wrapper__el-3"  data-aos="fade-up" data-aos-delay="400">
             <img
               src="img/white-palace.jpg"
               alt="Bell Mare"
@@ -477,7 +479,7 @@
             </div>
           </div>
           <!-- /.white-palace -->
-          <div class="package luxury-place packages-wrapper__el-4">
+          <div class="package luxury-place packages-wrapper__el-4"  data-aos="fade-up" data-aos-delay="500">
             <img
               src="img/luxury-place.jpg"
               alt="Bell Mare"
@@ -541,7 +543,7 @@
             <!-- /.luxury-place-card -->
           </div>
           <!-- /.luxury-place -->
-          <div class="package five-star packages-wrapper__el-5">
+          <div class="package five-star packages-wrapper__el-5" data-aos="fade-up" data-aos-delay="600">
             <img
               src="img/five-star.jpg"
               alt="Bell Mare"
@@ -611,7 +613,7 @@
     </section>
     <section class="newsletter" data-speed="10" data-type="background">
       <div class="newsletter-wrapper">
-        <h2 class="newsletter-title newsletter__title">
+        <h2 class="newsletter-title newsletter__title" data-aos="zoom-in" data-aos-delay="200">
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
@@ -627,10 +629,11 @@
                 class="input subscribe__input"
                 placeholder="Your email address"
                 name="email"
+                data-aos="zoom-in" data-aos-delay="200"
                 required
               />
             </div>
-            <button class="subscribe__button" type="submit">Send</button>
+            <button class="subscribe__button" type="submit" data-aos="zoom-in" data-aos-delay="200">Send</button>
           </form>
  
       </div>
@@ -816,9 +819,9 @@
     </section>
     <section class="activities">
       <div class="container">
-        <h2 class="activities__title">Other Activities</h2>
+        <h2 class="activities__title" data-aos="fade-right" data-aos-delay="100">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div class="card activities__card"  data-aos="fade-right" data-aos-delay="100">
             <img
               src="img/activity-1.jpg"
               alt="The curious corner of chamarel"
@@ -837,7 +840,7 @@
             </button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card"  data-aos="fade-right" data-aos-delay="200">
             <img
               src="img/activity-2.jpg"
               alt="Gymkhana club golf course"
@@ -856,7 +859,7 @@
             </button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card"  data-aos="fade-right" data-aos-delay="300">
             <img
               src="img/activity-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -875,7 +878,7 @@
             </button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card"  data-aos="fade-right" data-aos-delay="400">
             <img
               src="img/activity-4.jpg"
               alt="The blue marine discovery quest"
@@ -1170,6 +1173,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/map.js"></script>
     <script src="js/parallax.js"></script>
