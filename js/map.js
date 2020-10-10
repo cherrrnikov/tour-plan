@@ -8,18 +8,18 @@ var myMapTemp, myPlacemarkTemp;
 //Функция создания карты сайта и затем вставки ее в блок с идентификатором &#34;map-yandex&#34;
 function init () {
   var myMapTemp = new ymaps.Map("map-yandex", {
-    center: [55.730138, 37.594238], // координаты центра на карте
-    zoom: 7, // коэффициент приближения карты
+    center: [7.8382058756602015,98.2988141879274], // координаты центра на карте
+    zoom: 18, // коэффициент приближения карты
     controls: ['zoomControl', 'fullscreenControl'] // выбираем только те функции, которые необходимы при использовании
   });
-  var myPlacemarkTemp = new ymaps.Placemark([55.730138, 37.594238], {
+  var myPlacemarkTemp = new ymaps.Placemark([7.8382058756602015,98.2988141879274], {
       balloonContent: "Здесь может быть ваш адрес",
   }, {
       // Опции.
       // Необходимо указать данный тип макета.
       iconLayout: 'default#imageWithContent',
       // Своё изображение иконки метки.
-      iconImageHref: 'img/map-marker.png',
+      iconImageHref: 'img/point.png',
       // Размеры метки.
       iconImageSize: [50, 50],
       // Смещение левого верхнего угла иконки относительно
