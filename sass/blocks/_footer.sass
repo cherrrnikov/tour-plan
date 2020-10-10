@@ -1,18 +1,18 @@
 .footer
   background-color: $dark
   color: $light
-  padding: 108px 0 46px 0
+  padding: 108px 0 0 0
   &-wrapper
     display: grid
     grid-template-columns: repeat(4, minmax(min-content, 1fr))
-    grid-gap: 20px
+    grid-row-gap: 20px
+    grid-column-gap: 40px
     grid-auto-rows: minmax(40px, min-content)
     align-items: start
   &-breadcrumb
     position: relative
     display: flex
     align-items: center
-    grid-column: span 4
     justify-content: space-between
     grid-column: 2 / 5
     &__links
@@ -37,11 +37,12 @@
     width: 166px
     grid-row: 1 / 3
     align-self: stretch
+    margin-top: 30px
   &__categories
     grid-row: 1 / 4
   &__legal
-    max-width: 195px
-    margin-left: 70px
+    margin-left: 58px
+
   &__social
     &-links
       display: flex
@@ -54,16 +55,10 @@
       align-items: start
       grid-row: 2 / 4
       grid-column: span 2
-  &__icon
-    width: 20px
-    height: 20px
-    &:hover
-      background-color: $primary
-      border-radius: 48%
   &__contact
     &-details
       grid-column: span 2
-      grid-row: span 3
+      grid-row: span 2
     &-form
       grid-column: span 2
   &__form
@@ -100,8 +95,16 @@
     &--mb-2
       margin-bottom: 20px
   &__icon
+
     &-wrapper
       min-width: 40px
+      margin-left: 15px
+    &-link
+      width: 20px
+      height: 20px
+      &:hover
+        background-color: $primary
+        border-radius: 48%
   &__link
     text-decoration: none
     color: inherit
@@ -157,4 +160,12 @@
     flex-basis: 100%
 .phone
   &__icon
-    transform: translateX(-20%)
+    transform: translate(-20%, 25%)
+  &__item
+    margin-bottom: 30px
+.point
+  &__icon
+    transform: translateY(30%)
+.mail
+  &__icon
+    transform: translateY(20%)

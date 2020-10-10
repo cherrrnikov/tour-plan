@@ -82,13 +82,15 @@
       grid-column-gap: 40px
     &-breadcrumb
       &__links
-        left: 5%
+        left: 12%
     &__logo
       align-self: stretch
       grid-row: 1 / 2
     &__input
       &-group
         flex-basis: 100%
+    &__legal
+      margin-left: 90px
 @media ( max-width: 992px )
   .container,
   .newsletter-wrapper
@@ -162,9 +164,11 @@
       height: 200px
       padding: 15px 16px 18px 33px
   .footer
+    padding-bottom: 20px
     &-wrapper
       grid-template-columns: repeat(6, 1fr)
       grid-row-gap: 38px
+      grid-column-gap: 20px
     &-breadcrumb
       &__links
         left: 5%
@@ -173,6 +177,7 @@
     &-logo
       grid-row: 1 / 2
       grid-column: span 2
+      margin-top: 0
     &__social
       &-network
         grid-row: 1 / 2
@@ -312,7 +317,7 @@
     &__num
       font-size: 17px
   #map-yandex
-    width: 49%
+    width: 100%
   .ymap-container
     width: 49%
   .newsletter
@@ -405,6 +410,7 @@
       padding: 7px 20px
       font-size: 12px
   .footer
+    padding-top: 73px
     &__input
       flex-basis: 100%
   .modal
@@ -660,19 +666,27 @@
       top: 10px
   .footer
     position: relative
+    padding-top: 69px
     &__contact
       &-form
-        margin-bottom: 120px
+        margin-bottom: 145px
     &__social
       &-network
         flex-wrap: wrap
         max-width: 90%
+        margin-bottom: -2px
     &__additional
       max-width: 90%
+      grid-row: 4
+      margin-bottom: -8px
     &__categories
       max-width: 90%
+      grid-row: 5
+      margin-bottom: 2px
     &__legal
       max-width: 90%
+      grid-row: 3
+      margin-bottom: -8px
     &__logo
       height: 120px
       width: 104px
@@ -687,13 +701,14 @@
     &__icon
       &-wrapper
         min-width: 27px
+        margin-left: 8px
     &__text
       font-size: 14px
       line-height: 160%
     &__contact
       &-details
         max-width: 90%
-        margin-bottom: 15px
+        margin-bottom: 12px
     &__button
       position: absolute
       top: 92.5%
