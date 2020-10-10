@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <script src="https://api-maps.yandex.ru/2.1/?apikey=2f9695a0-52ba-4ee8-9d4e-c476de6b683b&lang=ru_RU"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="parallax.js"></script>
@@ -148,6 +150,7 @@
           <!-- /.hotel-info__text -->
         </div>
         <!-- /.hotel-info -->
+        <a href="index.html" class="home__link"><button class="button home-button">On the main</button></a>
       </div>
       <!-- /.container -->
     </section>
@@ -298,23 +301,14 @@
           <div class="footer__contact-form">
             <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
             <form action="send.php" method="POST" class="footer__form">
-              <input
-                type="text"
-                class="input footer__input"
-                placeholder="Your Full Name"
-                name="name"
-              />
-              <input
-                type="text"
-                class="input footer__input"
-                placeholder="Phone Number"
-                name="phone"
-              />
-              <textarea
-                class="footer__message"
-                placeholder="Message"
-                name="message"
-              ></textarea>
+              <div class="footer__input-group">
+                <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name" required minlength="2" />
+              </div>
+              <div class="footer__input-group">
+                <input type="tel" class="input footer__input phone" placeholder="Phone Number*" name="phone" required=""
+                  minlength="18" />
+              </div>
+              <textarea class="message footer__message" placeholder="Message" name="message"></textarea>
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>
             </form>
